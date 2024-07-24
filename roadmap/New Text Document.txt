@@ -1,0 +1,13 @@
+Qno 1 :
+1 Why to learn react ?
+Ans: 
+hype,job,trend,buld,ui
+Make easy to many And build copmlex frontend,
+Qno2 :
+When should I learn react?
+Ans:
+After mastring js
+
+
+
+
