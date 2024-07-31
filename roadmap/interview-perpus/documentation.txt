@@ -1,0 +1,28 @@
+React Fiber ek ongoing reimplementation hai React ke core algorithm ki. Yeh React team ke do saalon se zyada research ka nateeja hai.
+
+React Fiber ka maqsad hai ke React ko animation, layout, aur gestures jese areas ke liye behtar banaya ja sake. 
+Iska sabse bara feature hai incremental rendering: yani rendering ka kaam chote chote hisson mein taqseem karke multiple frames mein phailana.
+
+Dusre aham features mein shamil hain:
+- Work ko pause, abort, ya reuse karne ki ability jab naye updates aate hain.
+- Mukhtalif types ke updates ko priority assign karne ki ability.
+- Nai concurrency primitives jo ke parallel tasks ko efficiently handle karne mein madad deti hain.
+React Fiber ek ongoing reimplementation hai React ke core algorithm ki. Yeh React team ke do saalon se zyada research ka nateeja hai.
+
+React Fiber ka maqsad hai ke React ko animation, layout, aur gestures jese areas ke liye behtar banaya ja sake.
+ Iska sabse bara feature hai incremental rendering: yani rendering ka kaam chote chote hisson mein taqseem karke multiple frames mein phailana.
+
+Dusre aham features mein shamil hain:
+- Work ko pause, abort, ya reuse karne ki ability jab naye updates aate hain.
+- Mukhtalif types ke updates ko priority assign karne ki ability.
+- Nai concurrency primitives jo ke parallel tasks ko efficiently handle karne mein madad deti hain.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Virtual DOM aur Fiber dono React.js ki technologies hain jo web development me istemal hoti hain. 
+
+**Virtual DOM**: Ye ek lightweight copy hoti hai asli DOM ki. Jab bhi React me changes hotay hain, pehle Virtual DOM ko update kiya jata hai, aur phir compare kiya jata hai asli DOM ke sath. Is se performance improve hoti hai kyunki sirf wo parts update kiye jate hain jo actually badle hain.
+
+**Fiber**: Ye Virtual DOM ka ek updated version hai jo React 16 me introduce hua. Fiber ka maksad hai ki rendering process ko zyada efficient aur smoother banaya ja sake. Ye asynchronous rendering ko support karta hai, jis se complex UIs ko behtar handle kiya ja sakta hai bina kisi lag ke.
+
+In dono ka maqsad web applications ko tez aur responsive banana hai.
