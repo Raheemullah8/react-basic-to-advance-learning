@@ -26,3 +26,16 @@ Virtual DOM aur Fiber dono React.js ki technologies hain jo web development me i
 **Fiber**: Ye Virtual DOM ka ek updated version hai jo React 16 me introduce hua. Fiber ka maksad hai ki rendering process ko zyada efficient aur smoother banaya ja sake. Ye asynchronous rendering ko support karta hai, jis se complex UIs ko behtar handle kiya ja sakta hai bina kisi lag ke.
 
 In dono ka maqsad web applications ko tez aur responsive banana hai.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+React callback Hook Define:
+
+Jab aap ek React component banaate hain aur usmein function banaate hain,
+har dafa jab component re-render hota hai, wo function bhi naye tareeqe se define hota hai. 
+Iska matlab hai ke function ki reference change ho jaati hai,
+jo kuch scenarios mein unnecessary re-renders ya performance issues create kar sakta hai.
+
+useCallback ka istemaal karke aap function ko memorize kar sakte hain. 
+Ye function tabhi update hota hai jab aap specify karein ke kab update hona chahiye. Matlab, 
+agar aap useCallback ko ek dependency array ke sath use karte hain,
+to wo function tab tak wahi rahega jab tak us dependency array ke values nahi badalte.
